@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Climate Change</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="icon" href="Images/sunny.png" />
+</head>
+
+<body>
+  <div class="container">
+    <article>
+      <div class="header">
+        <nav class="navMenu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#video">Updates</a></li>
+            <li><a href="#moreInfo">About</a></li>
+            <li class="navButton">
+              <button id="theme-button">Dark Mode</button>
+            </li>
+            <li class="navButton">
+              <div id="reduce">
+                <button id="reduce-motion">Reduce Motion</button>
+              </div>
+            </li>
+            <div class="toggle">
+              <input type="checkbox" id="toggle" />
+              <label for="toggle"></label>
+            </div>
+          </ul>
+        </nav>
+        <h1>Climate Change: Learn more about Climate Change</h1>
+      </div>
+      <section class="content">
+        <div class="additionalInfo">
+          <div class="flex-container">
+            <div class="firstText">
+              <h2>What is Climate Change?</h2>
+              <p>
+                Climate change is often cast as a prediction made by
+                complicated computer models. But the scientific basis for
+                climate change is much broader, and models are actually only
+                one part of it (and, for what it’s worth, they’re surprisingly
+                accurate).
+              </p>
+            </div>
+            <div class="picture">
+              <img src="Images/climate-change-definition-meaning.jpg" alt="climate change" />
+            </div>
+          </div>
+
+          <h2>The trap behind climate change</h2>
+          <div class="flex-container">
+            <div class="firstText">
+              <p>
+                For more than a century, scientists have understood the basic
+                physics behind why greenhouse gases like carbon dioxide cause
+                warming. These gases make up just a small fraction of the
+                atmosphere but exert outsized control on Earth’s climate by
+                trapping some of the planet’s heat before it escapes into
+                space. This greenhouse effect is important: It’s why a planet
+                so far from the sun has liquid water and life!
+              </p>
+            </div>
+            <div class="picture">
+              <img src="Images/tree.jpg" alt="" srcset="" />
+            </div>
+          </div>
+          <h2>Industrial Revolution</h2>
+          <p class="remainder">
+            However, during the Industrial Revolution, people started burning
+            coal and other fossil fuels to power factories, smelters and steam
+            engines, which added more greenhouse gases to the atmosphere. Ever
+            since, human activities have been heating the planet.
+          </p>
+        </div>
+      </section>
+
+      <iframe class="revealable active" id="video" width="821" height="462"
+        src="https://www.youtube.com/embed/jAa58N4Jlos" title="Climate Change - A Short Film [4K]" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+      <button type="button" class="Btn">First</button>
+      <button type="button" class="Btn2">Second</button>
+      <h3>News:</h3>
+      <a
+        href="https://thehill.com/opinion/energy-environment/3913117-oliver-stone-is-half-right-regarding-nuclear-energy-and-climate-change/">Dangers
+        of climate change</a>
+
+      <div class="petition revealable active" id="petition ">
+        <h2>Sign Our Petition 📢</h2>
+        <div class="petition-container">
+          <div class="petition-para revealable active">
+            I am writing to urge action on climate change. We must address
+            this urgent issue to protect our planet and our communities. Our
+            government has a responsibility to reduce greenhouse gas
+            emissions, transition to renewable energy, and protect vulnerable
+            communities. We need to invest in sustainable infrastructure,
+            support research and development of new technologies, and work
+            collaboratively with other nations to address this issue on a
+            global scale. Thank you for your attention to this critical
+            matter.
+          </div>
+
+          <div class="signatures revealable active">
+            <p>🖊️ DJ from Brooklyn supports this.</p>
+            <p>🖊️ Amy from Queens supports this.</p>
+            <p>🖊️ Teresa from Harlem supports this.</p>
+            <p id="counter">
+              🖊️ 3 people have signed this petition and support this cause.
+            </p>
+          </div>
+        </div>
+
+        <!--- Sign Petition Form --->
+        <form id="sign-petition active" title="sign-petition">
+          <!-- inputs go here -->
+          <label for="fname">Name:</label><br />
+          <input type="text" id="fname" name="fname" /><br />
+
+          <label for="address">Email:</label><br />
+          <input type="text" id="email" name="email" /><br />
+
+          <label for="Phone">Hometown:</label><br />
+          <input type="text" id="hometown" name="hometown" />
+        </form>
+
+        <!--- Sign Now Button --->
+        <button id="sign-now-button">Sign Now</button>
+      </div>
+
+      <footer id="moreInfo">
+        <p><a href="https://climate.nasa.gov/effects/">Climate Change </a></p>
+        <p>© All Rights reserved</p>
+      </footer>
+
+      <!-- Modal -->
+      <div id="thanks-modal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div id="modal-text-container">
+            <p>Hello</p>
+          </div>
+          <img src="Images/congratulations.jpg" alt="congrats" class="congratulations">
+        </div>
+      </div>
+    </article>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,409 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(34, 193, 195);
+  background: radial-gradient(
+    circle,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+/* dark mode button */
+.navMenu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navButton {
+  margin-left: auto;
+}
+
+#theme-button {
+  border: none;
+  background-color: transparent;
+  color: green;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 14px 26px;
+  text-decoration: none;
+}
+
+#reduce-motion {
+  border: none;
+  background-color: transparent;
+  color: green;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 14px 26px;
+  text-decoration: none;
+}
+
+#theme-button:hover {
+  background-color: aqua;
+}
+
+#reduce-motion:hover {
+  background-color: aqua;
+}
+
+.dark-mode {
+  background: black;
+  color: white;
+}
+
+.dark-mode .firstText {
+  color: white;
+}
+
+.dark-theme {
+  background: black;
+  color: white;
+}
+
+.dark-theme .firstText {
+  color: white;
+}
+
+.dark-theme .li a {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 0%;
+  padding: 0;
+  overflow: hidden;
+  position: inline-block;
+  /* background-color: grey; */
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 14px 26px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: aqua;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+}
+
+h2 {
+  color: purple;
+}
+
+.remainder {
+  color: purple;
+}
+
+article {
+  margin: 0 0 40px;
+}
+
+article h1 {
+  font-size: 33px;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.additionalInfo {
+  flex: 1;
+  margin-right: 50px;
+}
+
+.additionalInfo h2 {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.flex-child {
+  flex: 1;
+  border: 2px solid yellow;
+}
+
+.flex-child:first-child {
+  margin-right: 20px;
+}
+
+.firstText {
+  flex: 1;
+  color: purple;
+}
+.picture {
+  flex: 1;
+}
+
+.picture img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.Btn {
+  margin-right: 40%;
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.Btn:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.Btn:hover {
+  background-color: #2c974b;
+}
+
+.Btn:focus {
+  box-shadow: rgba(46, 164, 79, 0.4) 0 0 0 3px;
+  outline: none;
+}
+
+.Btn:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+  cursor: default;
+}
+
+.Btn:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, 0.2) 0 1px 0 inset;
+}
+
+.Btn2 {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.Btn2:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.Btn2:hover {
+  background-color: #2c974b;
+}
+
+.Btn2:focus {
+  box-shadow: rgba(46, 164, 79, 0.4) 0 0 0 3px;
+  outline: none;
+}
+
+.Btn2:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+  cursor: default;
+}
+
+.Btn2:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, 0.2) 0 1px 0 inset;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: aqua;
+}
+
+.toggle {
+  margin-left: 80%;
+  width: 30px;
+  height: 30px;
+}
+
+.toggle input[type="checkbox"] {
+  display: none;
+}
+
+.toggle label {
+  background-color: #777;
+  border: 2px solid #555;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: all ease-in-out 0.3s;
+  width: 100px;
+  height: 50px;
+}
+
+.toggle label::after {
+  background-color: #555;
+  border-radius: 50%;
+  content: " ";
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  transition: all ease-in-out 0.3s;
+  width: 42px;
+  height: 42px;
+}
+
+.toggle input[type="checkbox"]:checked ~ label {
+  background-color: #00a0fc;
+  border-color: #006dc9;
+}
+
+.toggle input[type="checkbox"]:checked ~ label::after {
+  background-color: #0054b0;
+  transform: translateX(50px);
+}
+
+.petition-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100;
+  padding-bottom: 50px;
+}
+.petition-para {
+  width: 55%;
+  padding-right: 10px;
+}
+.signatures {
+  width: 45%;
+  padding-right: 10px;
+}
+
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background: pink;
+}
+
+.revealable{
+  position: relative; 
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+/* the modal that covers the background and prevents user interactions */
+.modal {
+  display: none; /* hides the modal from view by default*/
+  position: fixed; /* keeps the modal in one place */
+  z-index: 2; /* positions the modal on top of all other elements on the screen */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0,0,0,0.4); /* 40% opacity black - other elements can still be seen */
+  flex-direction: column; /* these flexbox rules center the content on the screen */
+  align-items: center;
+  justify-content: center;
+}
+
+/* box that contains all the content and images */
+.modal-content {
+  background-color: lightsteelblue; /* update the colors and font sizes as you like */
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  display: flex; /* adds flexbox to center all items */
+  justify-content: center;
+  align-items: center;
+}
+
+#thanks-modal-content {
+  width: 20rem; /* sets a default width for the text container */
+}
+
+#modal-text-container {
+  display: flex; /* adds flexbox to center the text and buttons (stretch feature) */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
