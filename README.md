@@ -1,3 +1,3 @@
 # CodePath-WebDev101
 
-`codepath.runcat.live` for the official website
+访问 `codepath.runcat.live` 
