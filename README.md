@@ -1,3 +1,3 @@
 # CodePath-WebDev101
 
-请访问 `codepath.runcat.live` 
+deployed on nginx: https://codepath.runcat.pro/
